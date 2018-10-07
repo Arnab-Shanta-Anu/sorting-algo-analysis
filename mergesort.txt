@@ -1,0 +1,27 @@
+Input Size: 10
+Best Case Time(ms) 0.036229	Worst Case Time(ms) 0.031733	Average Case Time(ms) 0.03116
+
+Input Size: 20
+Best Case Time(ms) 0.067756	Worst Case Time(ms) 0.066721	Average Case Time(ms) 0.067574
+
+Input Size: 50
+Best Case Time(ms) 0.178635	Worst Case Time(ms) 0.17784	Average Case Time(ms) 0.179787
+
+Input Size: 100
+Best Case Time(ms) 0.367322	Worst Case Time(ms) 0.366907	Average Case Time(ms) 0.376111
+
+Input Size: 500
+Best Case Time(ms) 2.48195	Worst Case Time(ms) 2.56772	Average Case Time(ms) 2.65732
+
+Input Size: 1000
+Best Case Time(ms) 5.06549	Worst Case Time(ms) 5.63451	Average Case Time(ms) 5.23952
+
+Input Size: 2000
+Best Case Time(ms) 8.55546	Worst Case Time(ms) 9.41716	Average Case Time(ms) 9.05862
+
+Input Size: 5000
+Best Case Time(ms) 22.9349	Worst Case Time(ms) 20.4971	Average Case Time(ms) 22.7931
+
+Input Size: 10000
+Best Case Time(ms) 43.8196	Worst Case Time(ms) 42.2506	Average Case Time(ms) 43.2145
+
