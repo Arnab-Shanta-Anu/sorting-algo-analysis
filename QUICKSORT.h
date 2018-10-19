@@ -17,7 +17,7 @@ int MedianOf3(vector<int> &arr,int lo, int hi)
 
 int Partition(vector<int> &arr,int lo,int hi)
 {
-    int pivot = MedianOf3(lo,hi);
+    int pivot = MedianOf3(arr,lo,hi);
 
     //cout<<"pivot = "<<pivot;
     //pivot = arr[pivot];
