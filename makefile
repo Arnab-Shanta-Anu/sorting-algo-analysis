@@ -1,4 +1,3 @@
-all: BUBBLESORT.h	INSERTIONSORT.h	MERGESORT.h QUICKSORT.h	SELECTIONSORT.h	printVec.h randomInput.h testing.cpp
+all: testing.cpp printVec.h randomInput.h BUBBLESORT.h	INSERTIONSORT.h	MERGESORT.h QUICKSORT.h	SELECTIONSORT.h	 
 
-#algoComp.xlsx	bubblesort.txt insertionsort.txt mergesort.txt		quicksort.txt		
-#selectionsort.txt	
+#algoComp.xlsx	bubblesort.txt insertionsort.txt mergesort.txt quicksort.txt	selectionsort.txt	
