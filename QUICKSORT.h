@@ -2,16 +2,17 @@
 #define QUICKSORT_H
 using namespace std;
 
-int MedianOf3(int lo, int hi)
+int MedianOf3(vector<int> &arr,int lo, int hi)
 {
     if(lo>=hi)
         return lo;
+    int mid=(lo+hi)/2;
+    if(arr[lo]>arr[mid])
+        swap(arr[lo],arr[mid]);
+    if(arr[mid]>arr[hi])
+        swap(arr[mid],arr[hi]);
 
-    int a=lo+(rand()%(hi-lo+1));
-    int b=lo+(rand()%(hi-lo+1));
-    int c=lo+(rand()%(hi-lo+1));
-    //cout<<"avg :"<<(a+b+c)/3<<" "<<endl;
-    return (a+b+c)/3;
+    return mid;
 }
 
 int Partition(vector<int> &arr,int lo,int hi)
